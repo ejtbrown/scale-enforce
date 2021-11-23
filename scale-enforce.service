@@ -6,3 +6,4 @@ TimeoutStartSec=0
 ExecStart=/usr/bin/scale-enforce.sh 2
 [Install]
 WantedBy=default.target
+Require=graphical.target
